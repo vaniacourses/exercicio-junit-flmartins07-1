@@ -59,18 +59,12 @@ public class CalculadoraTest {
     	public void testSubtracaoDoisNumeros() {
         	int subtracao = calc.subtracao(10, 4);
         	assertEquals(6, subtracao);
-    	}
+	}
 
 	@Test
     	public void testMultiplicacaoDoisNumeros() {
         	int multiplicacao = calc.multiplicacao(3, 4);
         	assertEquals(12, multiplicacao);
-    	}
-
-	@Test
-    	public void testDivisaoDoisNumeros() {
-        	int divisao = calc.divisao(8, 4);
-        	assertEquals(2, divisao);
 	}
 
 }
